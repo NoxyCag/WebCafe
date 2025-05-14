@@ -1,0 +1,32 @@
+.navbar {
+    max-width: 1200px;
+    margin: 1rem auto; /* espace autour et centrée */
+    padding: 1rem 2rem;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.navbar-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-links a {
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.2s ease;
+    }
+
+.navbar-links a:hover {
+    color: var(--accent-color);
+}

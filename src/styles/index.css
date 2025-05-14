@@ -1,0 +1,40 @@
+:root {
+    --bg-color: #1c1209;          /* Fond de page très foncé café noir */
+    --card-color: #362417;        /* Cartes brun foncé */
+    --text-color: #f0e6d2;        /* Texte crème clair */
+    --accent-color: #d1a679;      /* Doré / café au lait */
+    --hover-color: #e4bf92;       /* Variante plus claire pour hover */
+    --border-color: #4a3424;      /* Brun moyen pour les bordures */
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+  
+h1, h2 {
+    color: var(--accent-color);
+}
+  
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+  
+button {
+    background-color: var(--accent-color);
+    color: #2b1d0e;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
