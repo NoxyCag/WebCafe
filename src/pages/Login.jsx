@@ -21,6 +21,7 @@ export default function Login() {
 
       const token = response.data.token;
       localStorage.setItem("token", token);
+      window.location.href = "/admin";
 
       setErreur(null);
       navigate("/admin");
